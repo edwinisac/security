@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Agency - Bootstrap</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+        }
+        .text-cyan {
+            color: #00f2fe;
+        }
+        .btn-cyan {
+            background-color: #00f2fe;
+            color: #000;
+        }
+        .hero-section {
+            min-height: 80vh;
+        }
+        .search-input {
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+        .search-input::placeholder {
+            color: #fff;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body class="text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark py-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="text-cyan">DIGITAL</span> AGENCY
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CLIENT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            WORKS
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                            <li><a class="dropdown-item" href="#">Case Studies</a></li>
+                            <li><a class="dropdown-item" href="#">Clients</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <form class="d-flex">
+                            <input class="form-control me-2 search-input" type="search" placeholder="Search">
+                            <button class="btn btn-cyan" type="submit">SEARCH</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="display-1 fw-bold mb-4">
+                        WE'RE A DIGITAL<br>
+                        AGENCY .
+                    </h1>
+                    <button class="btn btn-cyan btn-lg px-4 py-2 text-uppercase fw-bold">
+                        Getting Started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services py-5">
+        <div class="container">
+            <h2 class="text-cyan mb-2">Services .</h2>
+            <p class="mb-5">we work with you not for you</p>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="https://www.big-red-digital.com/images/blogimages/social-media-networks.jpg" alt="Social Media Marketing" class="img-fluid">
+                    </div>
+                    <h5 class="mt-3">Social Media Marketing</h5>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="https://buildfire.com/wp-content/uploads/2021/10/Whats-the-Difference-Between-UX-Design-vs.-UI-Design_@3x-1-scaled.jpg" alt="UI/UX Design" class="img-fluid">
+                    </div>
+                    <h5 class="mt-3">UI/UX Design</h5>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlsRRtCVlfwSyhwSV4cNJ1JKfzvZQI91CTqg&s" alt="Content Marketing" class="img-fluid">
+                    </div>
+                    <h5 class="mt-3">Content Marketing</h5>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREtLoJmv6c_zyeH25zH2i1EuBugrCZE62dMQ&s" alt="Graphic Design" class="img-fluid">
+                    </div>
+                    <h5 class="mt-3">Graphic Design</h5>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="https://static.vecteezy.com/system/resources/previews/020/814/443/non_2x/website-seo-optimization-icon-illustration-vector.jpg" alt="SEO Optimization" class="img-fluid">
+                    </div>
+                    <h5 class="mt-3">SEO Optimization</h5>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="https://ngdata-web.s3.us-east-2.amazonaws.com/2018/06/blog-107-1.jpg" alt="Video Marketing" class="img-fluid">
+                    </div>
+                    <h5 class="mt-3">Video Marketing</h5>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="https://www.raxatechnosecuritysolutions.in/assets/img/Cyber-Security_Banner.jpg" alt="Cyber Security" class="img-fluid">
+                    </div>
+                    <h5 class="mt-3">Cyber Security</h5>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="https://seagulladvertising.com/hubfs/Brand%20Strategy.jpeg" alt="Brand Strategy" class="img-fluid">
+                    </div>
+                    <h5 class="mt-3">Brand Strategy</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
